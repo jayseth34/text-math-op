@@ -1,0 +1,30 @@
+body{
+  background-color: black;
+}
+
+.greenary{
+  color: green;
+}
+
+.whitish{
+  color: white;
+}
+
+.yellowish{
+  color: greenyellow;
+}
+
+.accordion-header{
+  background-color: green;
+}
+.accordion-button{
+  background-color: rgb(47, 86, 47);
+  color: black;
+  border-color: black;
+}
+.accordion-body{
+  background-color: rgb(167, 199, 120);
+}
+.lightGreen{
+  color:lightgreen;
+}
