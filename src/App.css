@@ -28,3 +28,10 @@ body{
 .lightGreen{
   color:lightgreen;
 }
+
+.centred{
+  text-align: center;
+  margin-top: 300px;
+  font-size: 100px;
+}
+

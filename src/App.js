@@ -8,6 +8,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Operation from './components/Operation';
 
 
 function App() {
@@ -19,10 +20,13 @@ function App() {
     <Navbar />
     <div className="container my-3">
     <Routes>
-      <Route exact path='/' element={<Home />} />
+      <Route exact path='/SmartText/' element={<Home />} />
     </Routes>
     <Routes>
       <Route exact path='/textAnalyzer' element={<Texted />} />
+    </Routes>
+    <Routes>
+      <Route exact path='/mathoperation' element={<Operation />} />
     </Routes>
     </div>
     {/* <Texted bol='hello' /> */}
