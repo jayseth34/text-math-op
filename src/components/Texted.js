@@ -73,7 +73,7 @@ const Texted = (props) => {
       <div className="container">
         <h1 className="greenary">Text Summary</h1>
         <p className="whitish">
-          {text.split(" ").length} words and {text.length} letters
+          {text.split(" ").filter((ele)=>{return ele.length!==0}).length} words and {text.length} letters
         </p>
         <h1 className="greenary">Preview</h1>
         <p className="whitish">{text}</p>
